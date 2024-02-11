@@ -13,6 +13,7 @@ html, body{
 .swiper {
     width: 340px;
     min-height: 250px;
+
   }
 
   .swiper-slide {
@@ -73,8 +74,34 @@ html, body{
   } */
 
 
-  button{
-    background-color: red;
+   #whatsappButton{
+    background-color: pink ;
     padding: .7vw 2vw;
     border-radius: 50px;
+    font-size: 1.2vw;
+    font-weight: 600;
+  }
+
+
+  @media (max-width:600px) {
+
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        margin:0;
+}
+
+.main{
+    padding-top: 24vw;
+    padding-right: 9vw;
+}
+
+    #whatsappButton{
+        background-color: green;
+        font-size: 3vw;
+        padding: 1.2vw 4vw;
+    }
+
+
   }

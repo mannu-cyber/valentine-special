@@ -7,7 +7,7 @@ document
   .getElementById("whatsappButton")
   .addEventListener("click", function () {
     var phoneNumber = "replace_with_recipient_number";
-    var message = encodeURIComponent("I love you Darling 😘");
+    var message = encodeURIComponent("hey !!!");
 
     var whatsappUrl = "https://wa.me/" + 917982453748 + "?text=" + message;
 
